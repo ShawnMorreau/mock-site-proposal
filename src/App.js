@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Nav from "./components/Nav";
+import SidePanel from "./components/SidePanel";
 function App() {
   return (
     <div className="App">
+      <Nav/>
+      <SidePanel/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        qr code
+        ship Name
+        <h3>SHIP NAME</h3>
+        <section>
+          <button>print</button>
+          <button>download</button>
+        </section>
+        <section>
+          <a href="">Other Details</a>
+          <a href="">Penguin Shiping</a>
+          <a href="">Start Timer</a>
+        </section>
+
+        <section>Table</section>
+        <section>graph</section>
+        <section>graph</section>
       </header>
+      
+      <main>
+        <div className="mainContainer"></div>
+        <button>import List</button>
+        <button>item</button>
+        <input type="text" name="" id="" />
+        <section>Big Table</section>
+      </main>
     </div>
   );
 }
