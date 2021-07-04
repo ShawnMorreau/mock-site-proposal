@@ -1,0 +1,44 @@
+.nav {
+  padding: 15px 0 0 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: blue;
+  min-width: 2.5em;
+  width: 2.5em;
+  text-align: center;
+}
+
+.nav .iconsContainer {
+  margin-bottom: 5px;
+}
+
+.nav .iconsContainer .item {
+  margin-bottom: 10px;
+}
+
+.nav .iconsContainer .item:hover {
+  color: red;
+}
+
+.nav .iconsContainer .item:active {
+  color: green;
+}
+
+.nav .profile {
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: auto;
+     object-position: auto;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=Nav.css.map */

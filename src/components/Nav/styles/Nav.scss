@@ -1,0 +1,30 @@
+.nav{
+    padding: 15px 0 0 0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:blue;
+    min-width: 2.5em;
+    width: 2.5em;
+    text-align: center;
+
+    .iconsContainer{
+        margin-bottom: 5px;
+        .item{
+            margin-bottom: 10px;
+        }
+        .item:hover{
+            color:red;
+        }
+        .item:active{
+            color:green;
+        }
+    }
+    .profile{
+        border-radius: 50%;
+        object-fit: contain;
+        object-position: auto;
+        margin-bottom: 5px;
+    }
+}

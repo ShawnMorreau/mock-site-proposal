@@ -1,0 +1,24 @@
+aside {
+  #backButton {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: fit-content;
+    justify-self: center;
+  }
+  #backButton:hover {
+    color: #fff;
+  }
+
+  & > .collection {
+      margin-left: 15px;
+      display: flex;
+      flex-direction: column;
+      width: 150px;
+    & > #shipName {
+      font-size: 1.4em;
+    }
+    
+  }
+}
